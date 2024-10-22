@@ -1,4 +1,4 @@
-# PROJECT-AIRCRASHES
+# AIRCRASHES ANALYSIS
 
 ## INTRODUCTION
 Aviation safety has always been a serious concern for both the public and the aviation industry. Despite significant advancements in technology air crashes continue to occur leading to loss of life and raising questions about the effectiveness of current safety measures. This report aims to provide an in-depth analysis of air crashes that have occurred over the past decade, examining the underlying causes, trends, and impacts on the aviation industry and public perception.
@@ -36,8 +36,11 @@ Through this analysis, we try to find the complicated nature of air crashes and 
 
 #### Data collection
 This report analyzes data on air crashes from 1908 to 2023. the data was source from Kaggle. The data was imported into excel by opening the csv file.
+
 #### Data cleaning
 Upon loading the data an initial inspection was performed to identify missing values in column like country/region, operator and so on using filter, check for duplicate and replacing missing values and blank row with unknown. All dates and numeric values are formatted correctly, calculated column was added to know the amount of people that survived the air crashes.
+
+
  
 #### Pivot Table
 Pivot table is used to summarization, exploration, and visualization the crashes by the aircraft type, sum of fatalities, average fatalities.  
